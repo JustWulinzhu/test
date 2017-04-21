@@ -5,4 +5,6 @@
     
 	echo 'fuck you and fuck everyone!';
 
+	echo 'keep going son..';
+
 ?>
