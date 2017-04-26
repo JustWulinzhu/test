@@ -1,10 +1,5 @@
 <?php
 
-    
-        echo 'this is a test file , and i will commit this file to remote repository';
-    
-	echo 'fuck you and fuck everyone!';
-
-	echo 'keep going son..';
+	echo "my name is wulinzhu, and this is a test file, it will commit to remote repository";
 
 ?>
