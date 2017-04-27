@@ -7,6 +7,19 @@
         die;
     }
 
+    //冒泡排序
+    $arr = [2, 5, 9, 1, 4];
+    $count = count($arr);
+    for($i = 1; $i < $count; $i++){
+        for($j = 0; $j < $count - $i; $j++){
+            if($arr[$j + 1] < $arr[$j]){
+                $tmp = $arr[$j + 1];
+                $arr[$j + 1] = $arr[$j];
+                $arr[$j] = $tmp;
+            }
+        }
+    }
+
     //选择排序
     $arr = [3, 5, 9, 1];
     $count = count($arr);
