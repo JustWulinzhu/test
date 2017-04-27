@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd08cf39-85c9-4125-96c4-807c94bb2565" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdo_test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a.php" afterPath="$PROJECT_DIR$/a.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,12 +25,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="a.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="a.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="25">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdo_test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdo_test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <marker date="1493276349000" expanded="true" signature="550:567" ph="select * fro... stu" />
+                <marker date="1493276349000" expanded="true" signature="593:597" ph="select * fro... stu" />
+                <marker date="1493276349000" expanded="true" signature="696:711" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="696:740" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1004" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1009" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1010" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1015" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1016" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1019" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1030" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1032" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1033" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1035" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="974:1037" ph="insert into stu... " />
+                <marker date="1493276349000" expanded="true" signature="1167:1208" ph="update stu s... " />
+                <marker date="1493276349000" expanded="true" signature="1352:1380" ph="delete from " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +72,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/a.php" />
+        <option value="$PROJECT_DIR$/pdo_test.php" />
       </list>
     </option>
   </component>
@@ -96,8 +126,53 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,16 +181,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493262392045</updated>
-      <workItem from="1493262393631" duration="718000" />
+      <workItem from="1493262393631" duration="6293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="718000" />
+    <option name="totallyTimeSpent" value="6293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -123,7 +198,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -152,11 +227,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/a.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="25">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3978">
+          <caret line="670" column="7" selection-start-line="670" selection-start-column="7" selection-end-line="670" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdo_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <marker date="1493276349000" expanded="true" signature="550:567" ph="select * fro... stu" />
+            <marker date="1493276349000" expanded="true" signature="593:597" ph="select * fro... stu" />
+            <marker date="1493276349000" expanded="true" signature="696:711" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="696:740" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1004" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1009" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1010" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1015" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1016" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1019" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1030" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1032" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1033" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1035" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="974:1037" ph="insert into stu... " />
+            <marker date="1493276349000" expanded="true" signature="1167:1208" ph="update stu s... " />
+            <marker date="1493276349000" expanded="true" signature="1352:1380" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>
