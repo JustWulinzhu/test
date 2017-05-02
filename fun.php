@@ -15,6 +15,8 @@
         die;
     }
 
+    $arr = [1, 3, 2];
+
     function array_sort($arr, $field, $sort = 'ASC'){
         return $arr;
     }
