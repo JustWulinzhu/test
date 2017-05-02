@@ -47,3 +47,20 @@
         }
         return $result_arr;
     }
+
+    $arr = ['中国', '美国', '日本', '韩国', '德国', '中国', '美国', '中国', '日本'];
+    //计算每个值出现的次数
+    function array_keys_count($arr){
+        $array_values = array_unique($arr);
+        $data = [];
+        foreach($array_values as $value){
+            $i = 0;
+            foreach($arr as $k => $v){
+                if($v == $value){
+                    $i++;
+                    $data[$value] = '出现' . $i . '次';
+                }
+            }
+        }
+        return $data;
+    }
