@@ -4,7 +4,6 @@
     <list default="true" id="bd08cf39-85c9-4125-96c4-807c94bb2565" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fun.php" afterPath="$PROJECT_DIR$/fun.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdo_test.php" afterPath="$PROJECT_DIR$/pdo_test.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,21 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fun.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fun.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fun.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="338">
+              <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdo_test.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pdo_test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdo_test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="111">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <marker date="1493713294000" expanded="true" signature="365:382" ph="select * fro... stu" />
                 <marker date="1493713294000" expanded="true" signature="789:850" ph="insert into stu... " />
@@ -74,9 +73,9 @@
         <option value="$PROJECT_DIR$/mysqli_test.php" />
         <option value="$PROJECT_DIR$/sufa.php" />
         <option value="$PROJECT_DIR$/a.php" />
-        <option value="$PROJECT_DIR$/fun.php" />
         <option value="$PROJECT_DIR$/../../xamppfiles/etc/php.ini" />
         <option value="$PROJECT_DIR$/pdo_test.php" />
+        <option value="$PROJECT_DIR$/fun.php" />
       </list>
     </option>
   </component>
@@ -194,12 +193,12 @@
       <updated>1493262392045</updated>
       <workItem from="1493262393631" duration="12868000" />
       <workItem from="1493345594915" duration="4977000" />
-      <workItem from="1493691928604" duration="11862000" />
+      <workItem from="1493691928604" duration="14423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29707000" />
+    <option name="totallyTimeSpent" value="32268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1280" height="709" extended-state="0" />
@@ -311,22 +310,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdo_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="111">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <marker date="1493713294000" expanded="true" signature="365:382" ph="select * fro... stu" />
             <marker date="1493713294000" expanded="true" signature="789:850" ph="insert into stu... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
