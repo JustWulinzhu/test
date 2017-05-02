@@ -17,21 +17,6 @@
         die;
     }
 
-    $arr = [
-        [
-            'id' => 3,
-            'name' => 'xxx'
-        ],
-        [
-            'id' => 23,
-            'name' => 'x',
-        ],
-        [
-            'id' => 13,
-            'name' => 'xx'
-        ]
-    ];
-
     //多维数组按照某个字段排序
     function array_sort($arr, $field, $sort = 'ASC'){
         $data = [];
@@ -50,7 +35,7 @@
         return $result_arr;
     }
 
-    $arr = ['中国', '美国', '日本', '韩国', '德国', '中国', '美国', '中国', '日本'];
+    //$arr = ['中国', '美国', '日本', '韩国', '德国', '中国', '美国', '中国', '日本'];
     //计算每个值出现的次数
     function array_keys_count($arr){
         $array_unique = array_unique($arr);
@@ -67,7 +52,6 @@
         return $data;
     }
 
-    $arr = [1, 2, 3, 1, 2, 3];
     //判断数组中是否有重复值
     function is_array_repeat($arr){
         for($i = 0; $i < count($arr); $i++){
@@ -80,7 +64,6 @@
         return false;
     }
 
-    $arr = [1, 3, 6, 9, 10, 28, 33, 55];
     //折半查找
     function binary_search($arr, $value){
         $low = 0;
