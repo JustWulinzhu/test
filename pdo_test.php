@@ -1,19 +1,7 @@
 <?php
 //PDO TEST
-
-    function dd($arr){
-        echo "<pre>";
-            print_r($arr);
-        echo "</pre>";
-        die;
-    }
-
-    function pp($arr){
-        echo "<pre>";
-            var_dump($arr);
-        echo "</pre>";
-        die;
-    }
+error_reporting(0);
+    include("./fun.php");
 
     //循环遍历查询结果,整理数据
     function pdo_select_result($res){

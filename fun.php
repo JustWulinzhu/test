@@ -1,14 +1,16 @@
 <?php
 //公共函数库
 
-    function dd($arr){
+    function dd( array $arr = []){
+        if(empty($arr)) die;
         echo "<pre>";
             print_r($arr);
         echo "</pre>";
         die;
     }
 
-    function pp($arr){
+    function pp($arr = []){
+        if(empty($arr)) die;
         echo "<pre>";
             var_dump($arr);
         echo "</pre>";
