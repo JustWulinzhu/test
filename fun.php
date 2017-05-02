@@ -15,8 +15,35 @@
         die;
     }
 
-    $arr = [1, 3, 2];
+    $arr = [
+        [
+            'id' => 3,
+            'name' => 'xxx'
+        ],
+        [
+            'id' => 23,
+            'name' => 'x',
+        ],
+        [
+            'id' => 13,
+            'name' => 'xx'
+        ]
+    ];
 
+    //多维数组按照某个字段排序
     function array_sort($arr, $field, $sort = 'ASC'){
-        return $arr;
+        $data = [];
+        foreach($arr as $k => $v){
+            $data[] = $v[$field];
+        }
+        if($sort === 'ASC'){
+            asort($data);
+        }else{
+            arsort($data);
+        }
+        $result_arr = [];
+        foreach($data as $k => $v) {
+            $result_arr[$k] = $arr[$k];
+        }
+        return $result_arr;
     }
