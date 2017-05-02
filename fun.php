@@ -84,7 +84,7 @@
     //折半查找
     function binary_search($arr, $value){
         $low = 0;
-        $high = count($arr);    //7
+        $high = count($arr);
         while($low <= $high){
             $mid = intval(($low + $high) / 2);
             if($value == $arr[$mid]) return $mid;
