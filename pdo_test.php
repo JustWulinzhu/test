@@ -1,7 +1,7 @@
 <?php
 //PDO TEST
 
-    function dd($arr){		
+    function dd($arr){
         echo "<pre>";
             print_r($arr);
         echo "</pre>";
