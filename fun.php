@@ -75,3 +75,8 @@
             if($arr[$mid] < $value) $low = $mid + 1;
         }
     }
+
+    //冒泡排序
+    function mao_pao($arr){
+
+    }
