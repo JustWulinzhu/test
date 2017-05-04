@@ -78,5 +78,12 @@
 
     //冒泡排序
     function mao_pao($arr){
+        if(! is_array($arr)) return false;
+        $count = count($arr);
+        for($i = 0; $i < $count; $i++){
+            for($j = 1; $j < $count - $i; $j++){
 
+            }
+        }
+        return $arr;
     }
