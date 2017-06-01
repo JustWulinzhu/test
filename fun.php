@@ -87,3 +87,8 @@
         }
         return $arr;
     }
+
+    //测试
+    function ceshi(){
+        return fasle;
+    }
